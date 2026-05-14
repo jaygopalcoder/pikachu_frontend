@@ -1,88 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pokémon – Pikachu</title>
-  <link rel="stylesheet" href="pikachustyle.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu|Pokemon Site</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-
-  <div class="page">
-
-    <!-- LEFT PANEL -->
-    <div class="left">
-
-      <!-- Pokéball watermark SVG -->
-      <svg class="pokeball-bg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <circle cx="100" cy="100" r="96" stroke="#3a2e00" stroke-width="8"/>
-        <line x1="4" y1="100" x2="196" y2="100" stroke="#3a2e00" stroke-width="8"/>
-        <circle cx="100" cy="100" r="28" stroke="#3a2e00" stroke-width="8"/>
-        <circle cx="100" cy="100" r="14" fill="#3a2e00" opacity="0.5"/>
-      </svg>
-
-      <!-- Navigation -->
-      <nav class="nav">
-        <div class="logo">POKÉ<span>MON</span></div>
-      </nav>
-
-      <!-- Main Content -->
-      <div class="content">
-        <p class="gen-label">Pokemon Gen I</p>
-        <h1 class="pokemon-name">Pikachu</h1>
-
-    
-
-        <p class="pokemon-desc">
-          Pikachu is an Electric-type Pokémon introduced in Generation I.
-          Pikachu are small, chubby, and incredibly cute mouse-like Pokémon.
-          They are almost completely covered by yellow fur.
-        </p>
-
-        <div class="counter">
-          <span class="counter-line"></span>
-          <span class="counter-text">01 / 08</span>
+    <header class="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/960px-International_Pok%C3%A9mon_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20250519141241" alt="Pokemon Logo" class="logo">
+        <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-      </div>
+    </header>
 
-    </div>
+    <main class="container">
+        <span class="subtitle"><strong>POKEMON GEN I</strong></span>
+        <h1 class="Pikachu-bold">Pikachu</h1>
+        <p class="content">Pikachu is an Electric-type Pokemon introduced in Generation I.Pikachu are small,chubby,and incredibly cute mouse-like Pokemon.They are alsmost completely covered by yellow fur.</p>
+        <div class="page">
+            <span class="line"></span>
+            <span class="Page-number"><strong>01/08</strong></span>
+        </div>
+            <img src="pikachu_image-removebg-preview.png" alt="pikachu-image" class="pikachu-img">
 
-    <!-- RIGHT PANEL -->
-    <div class="right">
+            <nav class="side-nav">
+      <ul class="dot-list">
+        <li class="dot active"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+        <li class="dot"></li>
+      </ul>
+    </nav>
+  </main>
 
-      <!-- Decorative glow -->
-      <div class="glow-ring" aria-hidden="true"></div>
-
-      <!-- Lightning decorations -->
-      <span class="bolt bolt1" aria-hidden="true">⚡</span>
-      <span class="bolt bolt2" aria-hidden="true">⚡</span>
-
-      <!-- Pikachu Image -->
-      <img
-        class="pikachu-img"
-        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
-        alt="Pikachu official artwork"
-      />
-
-      
-    <!-- Hamburger Menu -->
-    <button class="hamburger" aria-label="Open menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
-    <!-- Dot Navigation -->
-    <div class="dots" role="navigation" aria-label="Slide navigation">
-      <button class="dot active" aria-label="Slide 1"></button>
-      <button class="dot" aria-label="Slide 2"></button>
-      <button class="dot" aria-label="Slide 3"></button>
-      <button class="dot" aria-label="Slide 4"></button>
-    </div>
-
+  <div class="watermark">
+    <img src="https://cdn-icons-png.flaticon.com/128/744/744104.png" alt="pokeball">
   </div>
 
 </body>
